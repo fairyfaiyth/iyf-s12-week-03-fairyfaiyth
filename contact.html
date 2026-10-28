@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+</head>
+<body>
+    <h1>Contact Me</h1>
+    <form action="#" method="POST">
+        <fieldset>
+            <legend>Send a Message</legend>
+            
+            <!-- 1. Full Name (text, required) -->
+            <p>
+                <label for="fullname">Full Name:</label>
+                <input type="text" id="fullname" name="fullname" placeholder="John Doe" required>
+            </p>
+
+            <!-- 2. Email (email input with validation) -->
+            <p>
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" placeholder="example@email.com" required>
+            </p>
+
+            <!-- 3. Phone (tel input, optional) -->
+            <p>
+                <label for="phone">Phone Number (Optional):</label>
+                <input type="tel" id="phone" name="phone" placeholder="+123456789">
+            </p>
+
+            <!-- 4. Subject (dropdown with 3 options) -->
+            <p>
+                <label for="subject">Subject:</label>
+                <select id="subject" name="subject">
+                    <option value="general">General Inquiry</option>
+                    <option value="project">Project Collaboration</option>
+                    <option value="support">Technical Support</option>
+                </select>
+            </p>
+
+            <!-- 5. Message (textarea, required, min 50 characters) -->
+            <p>
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="5" cols="30" minlength="50" placeholder="Type your message here (minimum 50 characters)..." required></textarea>
+            </p>
+
+            <!-- 6. Newsletter (checkbox) -->
+            <p>
+                <input type="checkbox" id="newsletter" name="newsletter">
+                <label for="newsletter">Subscribe to our newsletter</label>
+            </p>
+
+            <!-- 7. Submit button -->
+            <p>
+                <button type="submit">Submit Form</button>
+            </p>
+        </fieldset>
+    </form>
+</body>
+</html>

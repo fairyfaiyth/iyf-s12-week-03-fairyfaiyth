@@ -1,0 +1,55 @@
+/* 1. Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 2. Set base typography */
+body {
+    font-size: 16px;
+    line-height: 1.6;
+    color:black;
+}
+
+/* 3. Style headings */
+h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 1rem;
+    font-weight: 700;
+/* Task 3.2: Box Model Card Layout */
+.profile-card {
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 15px;
+    border: 2px solid forestgreen;
+}
+}/* Task 3.3: Custom Properties & Selectors */
+:root {
+    --primary-color: forestgreen;
+    --text-color: black;
+    --background-color: honeydew;
+}
+
+/* Pseudo-class selection rule */
+nav ul li a:hover {
+    color: var(--primary-color);
+    text-decoration: underline;
+}
+/* Task 3.4: Semantic Layout Elements */
+header {
+    background-color: var(--background-color);
+    padding: 20px;
+    border-bottom: 1px solid var(--primary-color);
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+
