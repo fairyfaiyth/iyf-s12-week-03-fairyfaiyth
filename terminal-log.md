@@ -77,3 +77,16 @@ Commands I ran inside this repo, with the answers they gave.
 - find my-awesome-app : printed the tree to check src/css, src/js, src/images, docs, tests and the files inside
 
 I only wrote the bash version, not the PowerShell one, because I'm using Termux.
+
+# Task 6.1: Git Basics practice
+
+Commands I ran in a throwaway folder, ~/git-practice-week3, outside this repo.
+
+- git init : created a new repository
+- echo "practice" > notes.txt : made a file to commit
+- git status : showed notes.txt as untracked
+- git add . : staged the file
+- git commit -m "Add: practice file" : made the first commit
+- git log --oneline : showed the single commit
+
+My first attempt ran inside this repo by mistake, because the mkdir failed. I undid that commit with git reset --hard HEAD~1 before pushing, and then repeated the exercise in the separate folder.
