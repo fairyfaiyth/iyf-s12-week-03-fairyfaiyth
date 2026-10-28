@@ -65,3 +65,15 @@ Commands I ran inside this repo, with the answers they gave.
   - grep -rl "contact" --include="*.html" .
   - wc -l styles.css
   - history | tail -10
+
+# Terminal Log: Task 5.4
+
+## Script 1: new-project.sh
+- cat > new-project.sh << 'EOF' ... : wrote the script into this repo (a heredoc, so I typed no editor)
+- chmod +x new-project.sh : made the script executable
+- cd ~/terminal-practice : moved to the scratch folder so the generated project stays out of the repo
+- bash ~/iyf-s12-week-03-fairyfaiyth/new-project.sh : ran it with no name. It printed the usage message and exited
+- bash ~/iyf-s12-week-03-fairyfaiyth/new-project.sh my-awesome-app : ran it with a name. It created the project
+- find my-awesome-app : printed the tree to check src/css, src/js, src/images, docs, tests and the files inside
+
+I only wrote the bash version, not the PowerShell one, because I'm using Termux.
