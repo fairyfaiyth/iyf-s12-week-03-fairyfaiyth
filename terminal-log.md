@@ -38,3 +38,30 @@ Commands I ran inside ~/terminal-practice/my-project.
 - mv src-backup/ archive/ : renamed the copy to archive
 - rmdir archive/ : failed with "Directory not empty", because rmdir only removes empty folders
 - rm -r archive/ : removed the directory and its contents
+
+# Terminal Log: Task 5.3
+
+Commands I ran inside this repo, with the answers they gave.
+
+1. How many HTML files are in my portfolio project?
+- find . -name "*.html" : listed the files (index, about, projects, contact)
+- find . -name "*.html" | wc -l : counted them. Answer: 4
+
+2. Which files contain the word "contact"?
+- grep -rl "contact" --include="*.html" . : Answer: index.html, about.html, projects.html. contact.html is not listed because grep is case-sensitive.
+
+3. How many lines is my CSS file?
+- wc -l styles.css : Answer: 55 lines
+
+4. What were my last 10 terminal commands?
+- history | tail -10 : showed these commands:
+  - tail -20 terminal-log.md
+  - git add terminal-log.md
+  - git commit -m "Docs: add file operations to terminal log"
+  - git push
+  - cd ~/iyf-s12-week-03-fairyfaiyth
+  - find . -name "*.html"
+  - find . -name "*.html" | wc -l
+  - grep -rl "contact" --include="*.html" .
+  - wc -l styles.css
+  - history | tail -10
