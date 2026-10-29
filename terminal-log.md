@@ -90,3 +90,17 @@ Commands I ran in a throwaway folder, ~/git-practice-week3, outside this repo.
 - git log --oneline : showed the single commit
 
 My first attempt ran inside this repo by mistake, because the mkdir failed. I undid that commit with git reset --hard HEAD~1 before pushing, and then repeated the exercise in the separate folder.
+
+# Daily Challenges 1 and 2
+
+## Day 1: Terminal-Only Project Setup
+- cd ~/terminal-practice : moved to the scratch folder
+- mkdir -p daily-challenge-1/src/css daily-challenge-1/src/js : created the nested folders
+- touch daily-challenge-1/src/index.html daily-challenge-1/src/css/style.css daily-challenge-1/src/js/app.js daily-challenge-1/README.md : created the files
+- find daily-challenge-1 : printed the tree to check it matches the brief
+
+## Day 2: Find Command Mastery (run in this repo)
+- find . -name "*.css" : found one CSS file, styles.css
+- find . -mtime -7 -type f -not -path "./.git/*" : listed the files changed in the last 7 days. It was every file, since I created them this week
+- grep -n "flex" styles.css : found "flex" on lines 59, 60 and 66
+- grep -o "<div" *.html | wc -l : counted div tags in my HTML files. Answer: 1
