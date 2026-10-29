@@ -104,3 +104,10 @@ My first attempt ran inside this repo by mistake, because the mkdir failed. I un
 - find . -mtime -7 -type f -not -path "./.git/*" : listed the files changed in the last 7 days. It was every file, since I created them this week
 - grep -n "flex" styles.css : found "flex" on lines 59, 60 and 66
 - grep -o "<div" *.html | wc -l : counted div tags in my HTML files. Answer: 1
+
+## Day 3: Boilerplate Script
+- cat > boilerplate.sh << 'EOF' ... : wrote the script into this repo
+- chmod +x boilerplate.sh : made it executable
+- cd ~/terminal-practice : moved to the scratch folder so the test page stays out of the repo
+- bash ~/iyf-s12-week-03-fairyfaiyth/boilerplate.sh test-page.html : ran it. It printed "Created test-page.html"
+- cat test-page.html : checked the page has the HTML5 structure, viewport meta tag, stylesheet link and script tag
