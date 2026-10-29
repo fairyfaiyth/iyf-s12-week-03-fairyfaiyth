@@ -21,13 +21,13 @@ h1, h2, h3, h4, h5, h6 {
     max-width: 500px;
     margin: 20px auto;
     padding: 15px;
-    border: 2px solid forestgreen;
+    border: 2px solid deeppink;
 }
 }/* Task 3.3: Custom Properties & Selectors */
 :root {
-    --primary-color: forestgreen;
+    --primary-color: deeppink;
     --text-color: black;
-    --background-color: honeydew;
+    --background-color: lavenderblush;
 }
 
 /* Pseudo-class selection rule */
@@ -66,4 +66,28 @@ nav ul {
         flex-direction: column;
         gap: 0.5rem;
     }
+}
+
+/* Page spacing */
+body {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+a {
+    color: deeppink;
+}
+
+/* Pink theme */
+body {
+    background-color: var(--background-color);
+}
+
+h1, h2 {
+    color: var(--primary-color);
+}
+
+a {
+    color: var(--primary-color);
 }
