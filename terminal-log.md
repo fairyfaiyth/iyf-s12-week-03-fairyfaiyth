@@ -111,3 +111,5 @@ My first attempt ran inside this repo by mistake, because the mkdir failed. I un
 - cd ~/terminal-practice : moved to the scratch folder so the test page stays out of the repo
 - bash ~/iyf-s12-week-03-fairyfaiyth/boilerplate.sh test-page.html : ran it. It printed "Created test-page.html"
 - cat test-page.html : checked the page has the HTML5 structure, viewport meta tag, stylesheet link and script tag
+
+Note: I later moved boilerplate.sh into daily-challenges/day-3-boilerplate.sh with git mv, so the path in the Day 3 commands above is the old one.
