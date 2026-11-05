@@ -51,11 +51,14 @@ iyf-s12-week-03-fairyfaiyth/
 - Wrong folder: my home folder was also a Git repository, so a push from there went to the wrong remote. GitHub rejected it, and I reset my last commit and ran the commands inside the project folder instead.
 - Unstyled pages: only index.html linked styles.css, so the other pages looked plain on the live site. I found it with grep and added the link to each page.
 
-## Future Improvements
+## Collaboration
 
-- [ ] Replace the placeholder mockup images on the projects page
-- [ ] Add a screenshot of the site
-- [ ] Add JavaScript interactivity
+- **Team / partner:** [@Wesala-crypto](https://github.com/Wesala-crypto)
+- **Shared repo:** https://github.com/Wesala-crypto/iyf-s12-week-03-pair-Wesala-crypto
+- **PR I opened:** https://github.com/Wesala-crypto/iyf-s12-week-03-pair-Wesala-crypto/pull/6
+- **PR I reviewed:** https://github.com/Wesala-crypto/iyf-s12-week-03-pair-Wesala-crypto/pull/1
+
+
 
 ## Contact
 
