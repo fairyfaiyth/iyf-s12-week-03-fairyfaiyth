@@ -56,7 +56,8 @@ iyf-s12-week-03-fairyfaiyth/
 - **Team / partner:** [@Wesala-crypto](https://github.com/Wesala-crypto)
 - **Shared repo:** https://github.com/Wesala-crypto/iyf-s12-week-03-pair-Wesala-crypto
 - **PR I opened:** https://github.com/Wesala-crypto/iyf-s12-week-03-pair-Wesala-crypto/pull/6
-- **PR I reviewed:** https://github.com/Wesala-crypto/iyf-s12-week-03-pair-Wesala-crypto/pull/1
+- **PR I reviewed:** https://github.com/Wesala-crypto/iyf-s12-week-03-pair-Wesala-crypto/pull/7
+- **Merge conflict I resolved:** https://github.com/Wesala-crypto/iyf-s12-week-03-pair-Wesala-crypto/pull/8
 
 
 
